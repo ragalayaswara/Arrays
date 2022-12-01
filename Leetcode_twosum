@@ -34,7 +34,7 @@ void twosum(int a[], int n, int sum)
     }
     if(flag==1)
     {
-        printf("Sum exists with indices %d and %d\n", i,j);
+        printf("Sum exists with indices [%d,%d]\n", i,j);
     }
             
     if(flag==0)
